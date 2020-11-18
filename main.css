@@ -1,0 +1,33 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#app {
+    text-align: center;
+    position: relative;
+    width: 50%;
+    height: 23vw;
+    margin: 10vw 24vw;
+    border: 4px double rgba(0, 0, 0, 0.3);
+    border-radius: 22px 0px 40px 0px;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 34px 20px 47px 18px rgba(161,100,180,0.64); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 34px 20px 47px 18px rgba(161,100,180,0.64);
+}
+
+li {
+    list-style-type: none;
+ }
+
+ button {
+    border: 2px inset rgb(196, 160, 207);
+    border-radius: 40px 40px 40px 40px;
+    width: 7vw;
+}
+
+input[type="text"] {
+    border: 2px inset rgb(196, 160, 207);
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    width: 23vw;
+}
