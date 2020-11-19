@@ -1,6 +1,9 @@
 var listElement = document.querySelector("#app ul");
 var inputElement = document.querySelector("#app input");
 var buttonElement = document.querySelector("#app button");
+var clickElement = document.querySelector("#app button");
+
+clickElement.setAttribute("onclick", "");
 
 //Preenchendo a lista de Todos pegando da storage e caso esteja vazio, inserir um Array vazio
 var todos = JSON.parse(localStorage.getItem("list_todos")) || [];
