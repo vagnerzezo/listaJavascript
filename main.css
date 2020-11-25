@@ -1,37 +1,66 @@
 body {
-    font-family: monospace;
+    font-family: Arial, sans-serif;
     font-size: 20px;
+    background: #84a0df;
 }
 
 #app {
     text-align: center;
     position: relative;
-    width: 50%;
-    height: 23vw;
-    margin: 10vw 24vw;
+    width: 78%;
+    height: 45vw;
+    margin: 4vw 10vw;
     border: 4px double rgba(0, 0, 0, 0.3);
     border-radius: 22px 0px 40px 0px;
-    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 34px 20px 47px 18px rgba(161,100,180,0.64); 
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 34px 20px 47px 18px rgba(161,100,180,0.64);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 34px 20px 47px 18px rgb(30 81 130 / 64%);
 }
 
 ul{
     list-style: none;
 }
 
+ul:before {
+    content: 'ITEM';
+    font-style: italic;
+    color: white;
+    position: relative;
+    left: -35vw;
+}
+
 li {
     list-style-type: none;
- }
+    text-align: left;
+    color: white;
+}
 
- button {
-    border: 2px inset rgb(196, 160, 207);
+button {
+    border: 3px inset;
     border-radius: 40px 40px 40px 40px;
-    width: 7vw;
+    width: 13%;
+    background: bottom;
+    color: #ffffff;
+    font-style: italic;
+    position: relative;
+    top: 1vw;
 }
 
 input[type="text"] {
-    border: 2px inset rgb(196, 160, 207);
+    border: 3px inset;
     border-radius: 40px 40px 40px 40px;
     text-align: center;
     width: 23vw;
+    background: bottom;
+    color: white;
+    font-style: italic;
+    position: relative;
+    top: 1vw;
 }
+
+a {
+    text-decoration:none;
+    position: relative;
+    left: 3vw
+}
+::-webkit-input-placeholder {
+    color: white;
+ }
